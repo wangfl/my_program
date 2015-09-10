@@ -1,0 +1,6 @@
+150604 GUI.pyw
+新增：
+import sys
+reload(sys)  
+sys.setdefaultencoding('utf8')
+解决调取表单时出错 
