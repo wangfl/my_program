@@ -1,0 +1,14 @@
+一、EXCEL表格数据处理
+目的：
+实现对EXCEL表格中数据的处理
+具体需求：
+1、程序自动安装相关模块
+2、程序界面可添加excel文档，可选择execl中sheet
+3、程序对excel表格数据进行处理
+实现方案：
+1、 检查第三方模块安装目录site-packages下，是否已安装相关模块
+2、 若没有安装相关模块通过os.system()执行第三方模块安装；
+3、 通过PyQt4模块制作简易界面；
+4、 通过xlrd、xlwt、shutil模块实现对excel数据的操作；
+主要模块：
+xlrd、xlwt、shutil、PyQt4
