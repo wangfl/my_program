@@ -161,7 +161,7 @@ def deal_evaluation_info(get_info):
 @函数模块@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 """
 #browserie = webdriver.Ie()
-login_account = ("xiaoniu","vicky@123")
+login_account = ("xiaoniu","XXXXXX")
 info_dict = get_resume_info()
 istone_login(browserie,*login_account)
 
