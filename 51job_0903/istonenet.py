@@ -2,10 +2,8 @@
 from selenium import webdriver
 import time
 import os
-import random
 import json
 import re
-from selenium.webdriver.support.ui import Select
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -163,7 +161,7 @@ def deal_evaluation_info(get_info):
 @函数模块@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 """
 #browserie = webdriver.Ie()
-login_account = ("XXXXXXX","XXXXXXX")
+login_account = ("xiaoniu","vicky@123")
 info_dict = get_resume_info()
 istone_login(browserie,*login_account)
 
