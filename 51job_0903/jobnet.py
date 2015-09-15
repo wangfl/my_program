@@ -405,7 +405,7 @@ wakeup_time() #唤醒程序
 browser = webdriver.Chrome()  #调用chrome
 loginpage_title = open_url()    #登录51job
 
-job_account =(u"软通动力","xxxxxxxxxx","xxxxxx")
+job_account =(u"软通动力","isoftstone_jiezhangi","XXXXXXX")
 company_forbiden=(u"中软",u"易宝",u"佰钧成",u"易思博")  #前东家不能为华为外包
 java_condition = ("java",u"一年",u"四年","SEX_1")
 test_condition =(u"测试",u"一年",u"四年","SEX_1")
